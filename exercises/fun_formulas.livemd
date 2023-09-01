@@ -67,6 +67,9 @@ total = 42
 Enter your solution below.
 
 ```elixir
+actual = 12
+total = 42
+(actual / total) * 100
 
 ```
 
@@ -93,6 +96,9 @@ mass * acceleration
 Enter your solution below.
 
 ```elixir
+mass = 10
+acceleration = 50
+force = mass * acceleration
 
 ```
 
@@ -117,7 +123,9 @@ initial_cost * tip_percent
 Enter your solution below.
 
 ```elixir
-
+initial_cost = 20
+tip = 1.15
+total_cost = initial_cost * tip
 ```
 
 ## Pythagorean Theorum
@@ -141,6 +149,9 @@ a ** 2 + b ** 2
 Enter your solution below.
 
 ```elixir
+a = 4
+b = 10
+a ** 2 + b ** 2
 
 ```
 
@@ -161,6 +172,8 @@ c_squared = 116
 Enter your solution below.
 
 ```elixir
+c_squared = 116
+:math.sqrt(c_squared)
 
 ```
 
